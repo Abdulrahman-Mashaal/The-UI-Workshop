@@ -1,0 +1,135 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  max-width: 1130px;
+  user-select: none;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  padding: 0 20px;
+  height: 381px;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(1) {
+  background-image: url("../images/1.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(2) {
+  background-image: url("../images/2.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(3) {
+  background-image: url("../images/3.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(4) {
+  background-image: url("../images/4.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(5) {
+  background-image: url("../images/5.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(6) {
+  background-image: url("../images/6.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(7) {
+  background-image: url("../images/7.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(8) {
+  background-image: url("../images/8.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(9) {
+  background-image: url("../images/9.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(10) {
+  background-image: url("../images/10.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(11) {
+  background-image: url("../images/11.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(12) {
+  background-image: url("../images/12.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(13) {
+  background-image: url("../images/13.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide:nth-of-type(14) {
+  background-image: url("../images/14.jpg");
+}
+.swiper .swiper-wrapper .swiper-slide p {
+  font-size: 1.875rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+}
+.swiper .swiper-wrapper .swiper-slide::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843));
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.swiper .swiper-wrapper .swiper-slide::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  outline: 13px solid #D2D9DF;
+  outline-offset: -10px;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+.swiper .swiper-wrapper .swiper-slide:hover::after {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2509803922), rgba(0, 0, 0, 0.2509803922));
+  opacity: 0;
+}
+.swiper .swiper-wrapper .swiper-slide:hover::before {
+  outline-offset: 0px;
+}
+.swiper .swiper-actions {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+.swiper .swiper-actions button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.swiper .swiper-actions button svg path {
+  transition: all 0.3s ease-in-out;
+}
+.swiper .swiper-actions button:hover {
+  border-color: #FF7147;
+}
+.swiper .swiper-actions button:hover svg path {
+  transition: 0.3s;
+  fill: #FF7147;
+}
+
+/*# sourceMappingURL=style.css.map */
