@@ -1,4 +1,3 @@
-import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
 
 const anmaTopSpecialtiesSlider = new Swiper('.anma-top-specialties', {
     slidesPerView: 1,
