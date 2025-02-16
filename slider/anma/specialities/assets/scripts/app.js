@@ -24,8 +24,8 @@ const anmaTopSpecialtiesSlider = new Swiper('.specialties', {
         el: ".specialties__swiper-pagination",
         clickable: true,
     },
-    autoplay: {
-        delay: 2000
-    },
+    // autoplay: {
+    //     delay: 2000
+    // },
 
 });
