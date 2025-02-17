@@ -6,7 +6,7 @@ const anmaTopSpecialtiesSlider = new Swiper('.specialties', {
         nextEl: ".specialties__swiper-button-next",
         prevEl: ".specialties__swiper-button-prev",
       },
-    // loop: true,
+    loop: true,
     breakpoints:{
         470: {
             slidesPerView: 2,
@@ -24,8 +24,8 @@ const anmaTopSpecialtiesSlider = new Swiper('.specialties', {
         el: ".specialties__swiper-pagination",
         clickable: true,
     },
-    // autoplay: {
-    //     delay: 2000
-    // },
+    autoplay: {
+        delay: 3000
+    },
 
 });
