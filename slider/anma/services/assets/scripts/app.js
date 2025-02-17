@@ -20,7 +20,7 @@ const anmaServicesSlider = new Swiper('.services', {
             slidesPerView: 2,
         },
         576: {
-            slidesPerView: 1,
+            slidesPerView: 2,
         },
         430: {
             slidesPerView: 1,

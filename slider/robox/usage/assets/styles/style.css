@@ -1,0 +1,51 @@
+.swiper-container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.usage-tabs {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.usage-tabs .swiper-slide {
+  width: auto !important;
+}
+.usage-tabs .swiper-slide a {
+  display: block;
+  text-align: center;
+}
+.usage-tabs .swiper-slide .text {
+  padding: 1rem;
+  border-radius: 50px;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  transition: 0.25s;
+}
+.usage-tabs .swiper-slide .text:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--color1);
+  transform: translateX(-50%);
+  transition: 0.25s;
+}
+.usage-tabs .swiper-slide.on .text {
+  color: var(--color1);
+  background-color: rgba(170, 242, 250, 0.1019607843);
+}
+.usage-tabs .swiper-slide.on .text:after {
+  width: 100%;
+}
+
+.usage-content {
+  overflow: hidden !important;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
