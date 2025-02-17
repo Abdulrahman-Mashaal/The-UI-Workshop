@@ -1,0 +1,43 @@
+  .swiper-container{
+      max-width: 1130px;
+      margin: 0 auto;
+      padding: 0 1rem;
+  }
+  .swiper {
+    width: 100%;
+    .swiper-wrapper{
+        width: 298px;
+        height: auto;
+        .swiper-slide {
+          
+        }
+    }
+    .swiper-actions{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 3rem;
+        button {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            svg path{
+                transition: all 0.3s ease-in-out;
+            }
+            &:hover{
+                border-color: #FF7147;
+                svg path{
+                    transition: 0.3s;
+                    fill: #FF7147;
+                }
+            }
+      }
+    }
+}
