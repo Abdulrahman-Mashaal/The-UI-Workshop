@@ -1,0 +1,23 @@
+
+  .swiper-container{
+      max-width: 1130px;
+      margin: 0 auto;
+      padding: 0 1rem;
+  }
+  .swiper {
+    width: 100%;
+    .swiper-wrapper{
+        width: 100%;
+        height: auto;
+        .swiper-slide {
+            width: auto;
+            // FIXME: images styles is not appear correctly  
+            img{
+                object-fit: contain;
+                width: 100%;
+                height: 7rem;
+            }
+           
+        }
+    }
+}

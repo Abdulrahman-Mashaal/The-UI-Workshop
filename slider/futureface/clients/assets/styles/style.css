@@ -1,0 +1,23 @@
+.swiper-container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.swiper {
+  width: 100%;
+}
+.swiper .swiper-wrapper {
+  width: 100%;
+  height: auto;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  width: auto;
+}
+.swiper .swiper-wrapper .swiper-slide img {
+  object-fit: contain;
+  width: 100%;
+  height: 7rem;
+}
+
+/*# sourceMappingURL=style.css.map */
