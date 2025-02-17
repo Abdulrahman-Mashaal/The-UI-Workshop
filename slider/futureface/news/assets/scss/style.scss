@@ -1,0 +1,45 @@
+
+  .swiper-container{
+      max-width: 1130px;
+      margin: 0 auto;
+      padding: 0 1rem;
+  }
+  .swiper {
+    width: 80%;
+    .swiper-wrapper{
+        .swiper-slide {
+        width: 240px; /* Default width */
+        transition: width 0.3s ease; /* Smooth transition */
+           
+        }
+    }
+    
+    .swiper-actions{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 8px;
+        button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            svg path{
+                transition: all 0.3s ease-in-out;
+            }
+            &:hover{
+                border-color: #FF7147;
+                svg path{
+                    transition: 0.3s;
+                    fill: #FF7147;
+                }
+            }
+      }
+    }
+}
