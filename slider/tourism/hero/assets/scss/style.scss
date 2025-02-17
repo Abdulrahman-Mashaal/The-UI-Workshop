@@ -1,0 +1,91 @@
+@mixin bg-image-loop($imageURL, $imageExt, $length) {
+    @for $i from 1 through $length {
+      &:nth-of-type(#{$i}) {
+        background-image: url($imageURL + '/' + $i + '.' + $imageExt);
+      }
+    }
+  }
+
+.swiper-container{
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.swiper {
+  width: 100%;
+  height: auto;
+  position: relative;
+  .swiper-wrapper{
+      width: 298px;
+      height: auto;
+      .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 60vh;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          justify-content: center;
+          padding-inline-end: 10rem;
+          @include bg-image-loop("../images", 'jpg', 3);
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              h2{
+                font-size: 2.5rem;
+                line-height: 1.5;
+                font-weight: 600;
+                color: #fff;
+                text-align: center;
+                z-index: 2;
+               }
+               p{
+                font-size: 1rem;
+                line-height: 1.5;
+                font-weight: 600;
+                color: #fff;
+                text-align: center;
+                z-index: 2;
+               }
+          &::after{
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #001E1E80;
+            transition: opacity 0.3s ease-in-out;
+           }
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+  
+      
+    }
+    .swiper-pagination-bullet {
+      width: 15px;
+      height: 15px;
+      text-align: center;
+      line-height: 20px;
+      font-size: 12px;
+      color: #000;
+      opacity: 1;
+      background: #9DA4AE;
+      &-active {
+        background: #166A45;
+      }
+    }
+
+  
+}
