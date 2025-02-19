@@ -28,5 +28,4 @@ This repository includes mini samples using CSS animations or JS libraries to cr
 
 ### Author
 
-- Github - [@Abdulrahman-Mashaal](https://github.com/Abdulrahman-Mashaal)
-- CodePen - [@Abdulrahman-Mashaal](https://codepen.io/Abdulrahman-Mashaal)
+- LinkedIn - [@Abdulrahman-Mashaal](https://www.linkedin.com/in/abdulrahman-mashaal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
