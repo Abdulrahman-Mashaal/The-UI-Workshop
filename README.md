@@ -1,4 +1,4 @@
-## <img src="https://user-images.githubusercontent.com/13468728/233831804-0f5c7ee5-d654-4c13-9c77-a5bd6dc4fe74.jpg" title="great tricks" alt="The-UI-Workshop" width="50" height="50"/> The-UI-Workshop
+## <img src="ui.png" title="The-UI-Workshop" alt="The-UI-Workshop" width="50" height="50"/> The-UI-Workshop
 
 This repository includes mini samples using CSS animations or JS libraries to create sliders, cards, dashboards, landing pages, and login forms.
 
