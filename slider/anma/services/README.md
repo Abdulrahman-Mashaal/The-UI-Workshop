@@ -12,6 +12,8 @@
 
 <div align="left">
 <img src="https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/blob/main/slider/anma/services/assets/images/screenshot/1.png" title="anma services" alt="anma services" width="800" height="500"/>
+</div>
+<div align="left">
 <img src="https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/blob/main/slider/anma/services/assets/images/screenshot/2.png" title="anma services" alt="anma services" width="800" height="500"/>
 </div>
 
