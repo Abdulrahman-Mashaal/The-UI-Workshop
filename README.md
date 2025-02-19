@@ -21,7 +21,8 @@ This repository includes mini samples using CSS animations or JS libraries to cr
 | 05  | [Future Face - Services Slider](https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/tree/main/slider/futureface/services)                 |
 | 06  | [Impactor - Usage Slider](https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/tree/main/slider/impactor/usage)                 |
 | 07  | [Robox - Usage Slider](https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/tree/main/slider/robox/usage)                 |
-| 08  | [Other - Kayo-cv Slider](https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/tree/main/slider/other/kayo-cv)                 |
+| 08  | [Tourism - hero Slider](https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/tree/main/slider/tourism/hero)                 |
+| 09  | [Other - Kayo-cv Slider](https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/tree/main/slider/other/kayo-cv)                 |
 
 <br>
 

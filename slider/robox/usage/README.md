@@ -1,4 +1,4 @@
-## <img src="https://user-images.githubusercontent.com/13468728/233831804-0f5c7ee5-d654-4c13-9c77-a5bd6dc4fe74.jpg" title="great tricks" alt="great tricks" width="50" height="50"/> Anma - Services Slider
+## <img src="https://user-images.githubusercontent.com/13468728/233831804-0f5c7ee5-d654-4c13-9c77-a5bd6dc4fe74.jpg" title="great tricks" alt="great tricks" width="50" height="50"/> Robox - Usage Slider
 
 #### The solutions with these tools:
 
@@ -11,8 +11,7 @@
 ### Screenshot
 
 <div align="left">
-<img src="https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/blob/main/slider/anma/services/assets/images/screenshot/1.png" title="anma services" alt="anma services" width="800" height="500"/>
-<img src="https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/blob/main/slider/anma/services/assets/images/screenshot/2.png" title="anma services" alt="anma services" width="800" height="500"/>
+<img src="https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/blob/main/slider/robox/usage/assets/images/screenshot/1.png" title="robox usage" alt="robox usage" width="800" height="500"/>
 </div>
 
 ### Useful Resources
