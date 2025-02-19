@@ -1,4 +1,4 @@
-## <img src="../../../ui.png" title="The-UI-Workshop" alt="The-UI-Workshop" width="50" height="50"/> Anma - Specialities Slider
+## <img src="../../../ui.png" title="The-UI-Workshop" alt="The-UI-Workshop" width="50" height="50"/> Specialities Slider
 
 #### The solutions with these tools:
 
