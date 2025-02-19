@@ -1,4 +1,4 @@
-## <img src="ui.png" title="The-UI-Workshop" alt="The-UI-Workshop" width="50" height="50"/> Tourism - Hero Slider
+## <img src="../../../ui.png" title="The-UI-Workshop" alt="The-UI-Workshop" width="50" height="50"/> Tourism - Hero Slider
 
 #### The solutions with these tools:
 

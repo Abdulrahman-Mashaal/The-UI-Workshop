@@ -1,4 +1,4 @@
-## <img src="ui.png" title="The-UI-Workshop" alt="The-UI-Workshop" width="50" height="50"/> Other - Kayo CV Slider
+## <img src="../../../ui.png" title="The-UI-Workshop" alt="The-UI-Workshop" width="50" height="50"/> Other - Kayo CV Slider
 
 #### The solutions with these tools:
 
