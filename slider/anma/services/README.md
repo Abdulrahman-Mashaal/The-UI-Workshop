@@ -14,7 +14,7 @@
 ### Screenshot
 
 <div align="left">
-<img src="https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/tree/main/slider/anma/services/assets/screenshot/1.png" title="anma services" alt="anma services" width="800" height="500"/>
+<img src="https://github.com/Abdulrahman-Mashaal/The-UI-Workshop/tree/main/slider/anma/services/assets/images/screenshot/1.png" title="anma services" alt="anma services" width="800" height="500"/>
 </div>
 
 ### Useful Resources
